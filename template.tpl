@@ -10,7 +10,8 @@ ___INFO___
 
 {
   "displayName": "Yahoo広告（ディスプレイ広告） - サイトリターゲティングタグ",
-  "description": "Yahoo広告（ディスプレイ広告）のサイトリターゲティング用タグです。",
+  "description": "Yahoo広告（ディスプレイ広告）のサイトリターゲティング用タグです。\n※タグの実行順序について注意点があります。下の「リンク」にある「ドキュメント」をクリックしてご確認ください。",
+  "categories": ["ADVERTISING", "MARKETING", "REMARKETING"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
@@ -30,7 +31,7 @@ ___TEMPLATE_PARAMETERS___
 
 [
   {
-    "displayName": "\u003ca href\u003d\"https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan\u003dja\u0026aid\u003d51464\"\u003eサイトリターゲティング（ディスプレイ広告 ）\u003c/a\u003e",
+    "displayName": "\u003ca href\u003d\"https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan\u003dja\u0026aid\u003d51464\"\u003eサイトリターゲティング（ディスプレイ広告 ）について\u003c/a\u003e\u003cbr\u003e\n※タグの実行順序について注意点があります。上の「サイトリターゲティング（ディスプレイ広告）について」をクリックしてドキュメントをご確認ください。\u003cbr\u003e\u003cbr\u003e",
     "name": "product_link",
     "type": "LABEL"
   },
@@ -349,6 +350,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 2020/3/18 11:36:53
+Created on 2020/4/30 17:02:31
 
 
