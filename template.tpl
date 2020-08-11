@@ -98,47 +98,54 @@ ___TEMPLATE_PARAMETERS___
     "canBeEmptyString": true
   },
   {
-    "help": "Retargeting Itemsに設定したオブジェクトの各キー名を入力します。",
     "displayName": "Retargeting Items Key",
     "name": "ItemKey",
     "groupStyle": "NO_ZIPPY",
     "type": "GROUP",
     "subParams": [
       {
-        "help": "商品ID(item_id)キー名を入力します。\u003cbr/\u003e\ne.g. \u003cbr/\u003e var pageData \u003d { \"items\" : [{“item_id”:”1”,”category_id:”cate1”,”price\":\"100”,”quantity\":\"1\"}, {“item_id”:”2”,”category_id:”cate2”,”price”:”200”,”quantity”:”2”}, {“item_id”:”3”,”category_id:”cate3”,”price”:”300”,”quantity”:”3”}] };\u003cbr/\u003e\nこの場合は「item_id」と入力",
-        "displayName": "Item ID",
-        "simpleValueType": true,
-        "name": "key_item_id",
-        "type": "TEXT",
-        "canBeEmptyString": true,
-        "valueHint": "item_id"
-      },
-      {
-        "help": "カテゴリーID(category_id)キー名を入力します。\u003cbr/\u003e e.g. \u003cbr/\u003e var pageData \u003d { \"items\" : [{“item_id”:”1”,”category_id:”cate1”,”price\":\"100”,”quantity\":\"1\"}, {“item_id”:”2”,”category_id:”cate2”,”price”:”200”,”quantity”:”2”}, {“item_id”:”3”,”category_id:”cate3”,”price”:”300”,”quantity”:”3”}] };\u003cbr/\u003e この場合は「category_id」と入力",
-        "displayName": "Category ID",
-        "simpleValueType": true,
-        "name": "key_category_id",
-        "type": "TEXT",
-        "canBeEmptyString": true,
-        "valueHint": "category_id"
-      },
-      {
-        "help": "商品単価(price)キー名を入力します。\u003cbr/\u003e e.g. \u003cbr/\u003e var pageData \u003d { \"items\" : [{“item_id”:”1”,”category_id:”cate1”,”price\":\"100”,”quantity\":\"1\"}, {“item_id”:”2”,”category_id:”cate2”,”price”:”200”,”quantity”:”2”}, {“item_id”:”3”,”category_id:”cate3”,”price”:”300”,”quantity”:”3”}] };\u003cbr/\u003e この場合は「price」と入力",
-        "displayName": "Price Key",
-        "simpleValueType": true,
-        "name": "key_price",
-        "type": "TEXT",
-        "canBeEmptyString": true,
-        "valueHint": "price"
-      },
-      {
-        "help": "商品個数(quantity)キー名を入力します。\u003cbr/\u003e e.g. \u003cbr/\u003e var pageData \u003d { \"items\" : [{“item_id”:”1”,”category_id:”cate1”,”price\":\"100”,”quantity\":\"1\"}, {“item_id”:”2”,”category_id:”cate2”,”price”:”200”,”quantity”:”2”}, {“item_id”:”3”,”category_id:”cate3”,”price”:”300”,”quantity”:”3”}] };\u003cbr/\u003e この場合は「quantity」と入力",
-        "displayName": "Quantity Key",
-        "simpleValueType": true,
-        "name": "key_quantity",
-        "type": "TEXT",
-        "canBeEmptyString": true,
-        "valueHint": "quantity"
+        "type": "GROUP",
+        "name": "ItemKeyLabel",
+        "displayName": "「Retargeting Items」に設定したオブジェクトの各キー名を入力してください。",
+        "groupStyle": "NO_ZIPPY",
+        "subParams": [
+          {
+            "help": "商品ID(item_id)キー名を入力します。\u003cbr/\u003e\ne.g. \u003cbr/\u003e var pageData \u003d { \"items\" : [{“item_id”:”1”,”category_id:”cate1”,”price\":\"100”,”quantity\":\"1\"}, {“item_id”:”2”,”category_id:”cate2”,”price”:”200”,”quantity”:”2”}, {“item_id”:”3”,”category_id:”cate3”,”price”:”300”,”quantity”:”3”}] };\u003cbr/\u003e\nこの場合は「item_id」と入力",
+            "displayName": "Item ID",
+            "simpleValueType": true,
+            "name": "key_item_id",
+            "type": "TEXT",
+            "canBeEmptyString": true,
+            "defaultValue": "item_id"
+          },
+          {
+            "help": "カテゴリーID(category_id)キー名を入力します。\u003cbr/\u003e e.g. \u003cbr/\u003e var pageData \u003d { \"items\" : [{“item_id”:”1”,”category_id:”cate1”,”price\":\"100”,”quantity\":\"1\"}, {“item_id”:”2”,”category_id:”cate2”,”price”:”200”,”quantity”:”2”}, {“item_id”:”3”,”category_id:”cate3”,”price”:”300”,”quantity”:”3”}] };\u003cbr/\u003e この場合は「category_id」と入力",
+            "displayName": "Category ID",
+            "simpleValueType": true,
+            "name": "key_category_id",
+            "type": "TEXT",
+            "canBeEmptyString": true,
+            "defaultValue": "category_id"
+          },
+          {
+            "help": "商品単価(price)キー名を入力します。\u003cbr/\u003e e.g. \u003cbr/\u003e var pageData \u003d { \"items\" : [{“item_id”:”1”,”category_id:”cate1”,”price\":\"100”,”quantity\":\"1\"}, {“item_id”:”2”,”category_id:”cate2”,”price”:”200”,”quantity”:”2”}, {“item_id”:”3”,”category_id:”cate3”,”price”:”300”,”quantity”:”3”}] };\u003cbr/\u003e この場合は「price」と入力",
+            "displayName": "Price Key",
+            "simpleValueType": true,
+            "name": "key_price",
+            "type": "TEXT",
+            "canBeEmptyString": true,
+            "defaultValue": "price"
+          },
+          {
+            "help": "商品個数(quantity)キー名を入力します。\u003cbr/\u003e e.g. \u003cbr/\u003e var pageData \u003d { \"items\" : [{“item_id”:”1”,”category_id:”cate1”,”price\":\"100”,”quantity\":\"1\"}, {“item_id”:”2”,”category_id:”cate2”,”price”:”200”,”quantity”:”2”}, {“item_id”:”3”,”category_id:”cate3”,”price”:”300”,”quantity”:”3”}] };\u003cbr/\u003e この場合は「quantity」と入力",
+            "displayName": "Quantity Key",
+            "simpleValueType": true,
+            "name": "key_quantity",
+            "type": "TEXT",
+            "canBeEmptyString": true,
+            "defaultValue": "quantity"
+          }
+        ]
       }
     ]
   }
@@ -350,6 +357,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 2020/4/30 17:02:31
+Created on 2020/8/7 17:26:28
 
 
