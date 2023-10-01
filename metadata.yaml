@@ -12,18 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-homepage: "https://promotionalads.yahoo.co.jp/"
-documentation: "https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan=ja&aid=51464"
+homepage: "https://www.lycbiz.com/jp/service/yahoo-ads/"
+documentation: "https://ads-help.yahoo-net.jp/s/article/H000044369?language=ja"
 versions:
   # Latest version
-  - sha: d122c28a2f7b5891401df9c7c5d4799c8469e81b
-    changeNotes: UIを調整しました
+  - sha: 611ab8257423e30a03a32f4361f25528882d7570
+    changeNotes: Update information
 
   # Older versions
+  - sha: d122c28a2f7b5891401df9c7c5d4799c8469e81b
+    changeNotes: UIを調整しました
   - sha: af2638515be83a506c597f10345db86c6182519a
     changeNotes: ご利用時の注意点を記載しました
-
   - sha: 53c49d28fa44ee24f4a703c3e2b1103e40a67e01
     changeNotes: Initial Version
-
-
