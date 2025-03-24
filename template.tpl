@@ -10,8 +10,12 @@ ___INFO___
 
 {
   "displayName": "Yahoo広告（ディスプレイ広告） - サイトリターゲティングタグ",
-  "description": "Yahoo広告（ディスプレイ広告）のサイトリターゲティング用タグです。\n※タグの実行順序について注意点があります。下の「リンク」にある「ドキュメント」をクリックしてご確認ください。",
-  "categories": ["ADVERTISING", "MARKETING", "REMARKETING"],
+  "description": "Yahoo広告（ディスプレイ広告）のサイトリターゲティング用タグです。\n※タグの実行順序について注意点があります。「ドキュメント」をクリックしてご確認ください。",
+  "categories": [
+    "ADVERTISING",
+    "MARKETING",
+    "REMARKETING"
+  ],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
@@ -31,7 +35,7 @@ ___TEMPLATE_PARAMETERS___
 
 [
   {
-    "displayName": "\u003ca href\u003d\"https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan\u003dja\u0026aid\u003d51464\"\u003eサイトリターゲティング（ディスプレイ広告 ）について\u003c/a\u003e\u003cbr\u003e\n※タグの実行順序について注意点があります。上の「サイトリターゲティング（ディスプレイ広告）について」をクリックしてドキュメントをご確認ください。\u003cbr\u003e\u003cbr\u003e",
+    "displayName": "\u003ca href\u003d\"https://ads-help.yahoo-net.jp/s/article/H000044369?language\u003dja\"\u003eサイトリターゲティング（ディスプレイ広告 ）について\u003c/a\u003e\u003cbr\u003e\n※タグの実行順序について注意点があります。上の「サイトリターゲティング（ディスプレイ広告）について」をクリックしてドキュメントをご確認ください。\u003cbr\u003e\u003cbr\u003e",
     "name": "product_link",
     "type": "LABEL"
   },
@@ -148,6 +152,15 @@ ___TEMPLATE_PARAMETERS___
         ]
       }
     ]
+  },
+  {
+    "type": "CHECKBOX",
+    "name": "yahoo_external_transmission_optout",
+    "checkboxText": "送信しない",
+    "simpleValueType": true,
+    "help": "パートナー企業へデータを送信しない場合は、チェックを入れてください。",
+    "displayName": "yahoo_external_transmission_optout",
+    "defaultValue": false
   }
 ]
 
@@ -184,7 +197,8 @@ const onSuccess = () => {
           yahoo_retargeting_id: data.yahoo_retargeting_id,
           yahoo_retargeting_label: data.yahoo_retargeting_label,
           yahoo_retargeting_page_type: data.yahoo_retargeting_page_type,
-          yahoo_retargeting_items: items
+          yahoo_retargeting_items: items,
+          yahoo_external_transmission_optout: data.yahoo_external_transmission_optout ? true : false
         }}
       );
   
