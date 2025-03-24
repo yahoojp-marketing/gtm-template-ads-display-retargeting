@@ -16,10 +16,12 @@ homepage: "https://www.lycbiz.com/jp/service/yahoo-ads/"
 documentation: "https://ads-help.yahoo-net.jp/s/article/H000044369?language=ja"
 versions:
   # Latest version
-  - sha: 611ab8257423e30a03a32f4361f25528882d7570
-    changeNotes: Update information
+  - sha: 3811dd8ad5e20e8de513e943f02d5c52abfd07b6
+    changeNotes: Add yahoo_external_transmission_optout parameter
 
   # Older versions
+  - sha: 611ab8257423e30a03a32f4361f25528882d7570
+    changeNotes: Update information
   - sha: d122c28a2f7b5891401df9c7c5d4799c8469e81b
     changeNotes: UIを調整しました
   - sha: af2638515be83a506c597f10345db86c6182519a
