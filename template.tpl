@@ -9,8 +9,8 @@ Google may provide), as modified from time to time.
 ___INFO___
 
 {
-  "displayName": "Yahoo広告（ディスプレイ広告） - サイトリターゲティングタグ",
-  "description": "Yahoo広告（ディスプレイ広告）のサイトリターゲティング用タグです。\n※タグの実行順序について注意点があります。「ドキュメント」をクリックしてご確認ください。",
+  "displayName": "LINEヤフー広告 ディスプレイ広告 - サイトリターゲティングタグ",
+  "description": "LINEヤフー広告 ディスプレイ広告のサイトリターゲティング用タグです。\n※タグの実行順序について注意点があります。「ドキュメント」をクリックしてご確認ください。",
   "categories": [
     "ADVERTISING",
     "MARKETING",
@@ -35,7 +35,7 @@ ___TEMPLATE_PARAMETERS___
 
 [
   {
-    "displayName": "\u003ca href\u003d\"https://ads-help.yahoo-net.jp/s/article/H000044369?language\u003dja\"\u003eサイトリターゲティング（ディスプレイ広告 ）について\u003c/a\u003e\u003cbr\u003e\n※タグの実行順序について注意点があります。上の「サイトリターゲティング（ディスプレイ広告）について」をクリックしてドキュメントをご確認ください。\u003cbr\u003e\u003cbr\u003e",
+    "displayName": "\u003ca href\u003d\"https://ads-help.yahoo-net.jp/s/article/H000044369?language\u003dja\"\u003eサイトリターゲティング（LINEヤフー広告 ディスプレイ広告）について\u003c/a\u003e\u003cbr\u003e\n※タグの実行順序について注意点があります。上の「サイトリターゲティング（LINEヤフー広告 ディスプレイ広告）について」をクリックしてドキュメントをご確認ください。\u003cbr\u003e\u003cbr\u003e",
     "name": "product_link",
     "type": "LABEL"
   },
